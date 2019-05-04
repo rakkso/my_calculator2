@@ -14,6 +14,11 @@ function sine() {
 }
 
 
+function inverso() {
+ var num = document.getElementById("n1");
+ num.value = 1/num.value;
+}
+
 </script>
 </head>
 <body>
@@ -21,10 +26,13 @@ function sine() {
  Number:
  <input type="text" id="n1">
  <p>
+
  <button onclick="sine()"> sin(x) </button>
  <button onclick="elevar(3)"> x^3 </button>
  <button onclick="elevar(4)"> x^4 </button>
  <button onclick="elevar(2)"> x^2 </button>
+ <button onclick="inverso()"> 1/x </button>
+
  </p>
 </body>
 </html>
