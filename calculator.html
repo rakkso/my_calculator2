@@ -5,12 +5,15 @@ function elevar(potencia) {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, potencia);
 }
-		function sine() {
+
+function sine() {
 		 var num = document.getElementById("n1");
 		 var radianes = num.value * Math.PI/180;
 		
 		 num.value = Math.sin(radianes);
-		}
+}
+
+
 </script>
 </head>
 <body>
@@ -21,6 +24,7 @@ function elevar(potencia) {
  <button onclick="sine()"> sin(x) </button>
  <button onclick="elevar(3)"> x^3 </button>
  <button onclick="elevar(4)"> x^4 </button>
+ <button onclick="elevar(2)"> x^2 </button>
  </p>
 </body>
 </html>
